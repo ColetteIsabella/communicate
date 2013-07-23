@@ -1,0 +1,29 @@
+<h1>Listing nerds</h1>
+
+<table>
+  <tr>
+    <th>Namea</th>
+    <th>Question</th>
+    <th>Nameb</th>
+    <th>Answer</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @nerds.each do |nerd| %>
+  <tr>
+    <td><%= nerd.nameA %></td>
+    <td><%= nerd.question %></td>
+    <td><%= nerd.nameB %></td>
+    <td><%= nerd.answer %></td>
+    <td><%= link_to 'Show', nerd %></td>
+    <td><%= link_to 'Edit', edit_nerd_path(nerd) %></td>
+    <td><%= link_to 'Destroy', nerd, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Nerd', new_nerd_path %>
