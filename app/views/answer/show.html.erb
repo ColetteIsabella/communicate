@@ -1,17 +1,14 @@
 <p id="notice"><%= notice %></p>
-
 <p>
-  <b>Name A:</b>
-  <%= @nerd.nameA %>
+  <b>Name B:</b>
+  <%= @nerd.nameB %>
 </p>
 
 <p>
-  <b>Question:</b>
-  <%= @nerd.question %>
+  <b>Answer:</b>
+  <%= @nerd.answer %>
 </p>
 
 
 <%= link_to 'Edit', edit_nerd_path(@nerd) %> |
 <%= link_to 'Back', nerds_path %>
-
-<%= link_to "New Answer", answers_path %>

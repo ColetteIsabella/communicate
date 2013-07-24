@@ -19,3 +19,520 @@ Connecting to database specified by database.yml
   [1m[36m (1.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
   [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
   [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130723180450')[0m
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-23 21:36:07 -0700
+Processing by NerdsController#index as HTML
+  [1m[36mNerd Load (0.5ms)[0m  [1mSELECT "nerds".* FROM "nerds" [0m
+  Rendered nerds/index.html.erb within layouts/application (3.1ms)
+Compiled nerds.css  (26ms)  (pid 35792)
+Compiled scaffolds.css  (10ms)  (pid 35792)
+Compiled application.css  (58ms)  (pid 35792)
+Compiled jquery.js  (3ms)  (pid 35792)
+Compiled jquery_ujs.js  (0ms)  (pid 35792)
+Compiled nerds.js  (158ms)  (pid 35792)
+Compiled application.js  (252ms)  (pid 35792)
+Completed 200 OK in 416ms (Views: 382.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/nerds.css?body=1" for 127.0.0.1 at 2013-07-23 21:36:08 -0700
+Served asset /nerds.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 21:36:08 -0700
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 21:36:08 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 21:36:08 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/nerds.js?body=1" for 127.0.0.1 at 2013-07-23 21:36:08 -0700
+Served asset /nerds.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 21:36:08 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 21:36:08 -0700
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/nerds/new" for 127.0.0.1 at 2013-07-23 21:36:13 -0700
+Processing by NerdsController#new as HTML
+  Rendered nerds/_form.html.erb (10.7ms)
+  Rendered nerds/new.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 54ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 21:36:14 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 21:36:14 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 21:36:14 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 21:36:14 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 21:36:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/nerds/new" for 127.0.0.1 at 2013-07-23 21:36:52 -0700
+Processing by NerdsController#new as HTML
+  Rendered nerds/_form.html.erb (2.2ms)
+  Rendered nerds/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 21:36:53 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 21:36:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.css?body=1" for 127.0.0.1 at 2013-07-23 21:36:53 -0700
+Served asset /nerds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 21:36:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.js?body=1" for 127.0.0.1 at 2013-07-23 21:36:53 -0700
+Served asset /nerds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 21:36:53 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 21:36:53 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-23 21:37:01 -0700
+Processing by NerdsController#index as HTML
+  [1m[35mNerd Load (0.2ms)[0m  SELECT "nerds".* FROM "nerds" 
+  Rendered nerds/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 21:37:01 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.css?body=1" for 127.0.0.1 at 2013-07-23 21:37:01 -0700
+Served asset /nerds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 21:37:01 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 21:37:01 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 21:37:01 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.js?body=1" for 127.0.0.1 at 2013-07-23 21:37:01 -0700
+Served asset /nerds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 21:37:01 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-23 21:49:59 -0700
+Processing by NerdsController#index as HTML
+  [1m[36mNerd Load (0.1ms)[0m  [1mSELECT "nerds".* FROM "nerds" [0m
+  Rendered nerds/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 21:49:59 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.css?body=1" for 127.0.0.1 at 2013-07-23 21:49:59 -0700
+Served asset /nerds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 21:49:59 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 21:49:59 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 21:49:59 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 21:49:59 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.js?body=1" for 127.0.0.1 at 2013-07-23 21:49:59 -0700
+Served asset /nerds.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-23 21:50:23 -0700
+Processing by NerdsController#index as HTML
+  [1m[35mNerd Load (0.2ms)[0m  SELECT "nerds".* FROM "nerds" 
+  Rendered nerds/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 37.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 21:50:23 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.js?body=1" for 127.0.0.1 at 2013-07-23 21:50:23 -0700
+Served asset /nerds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 21:50:23 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 21:50:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.css?body=1" for 127.0.0.1 at 2013-07-23 21:50:23 -0700
+Served asset /nerds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 21:50:23 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 21:50:23 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/nerds/new" for 127.0.0.1 at 2013-07-23 21:50:34 -0700
+Processing by NerdsController#new as HTML
+  Rendered nerds/_form.html.erb (2.9ms)
+  Rendered nerds/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 20ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 21:50:34 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 21:50:34 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 21:50:34 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 21:50:34 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.js?body=1" for 127.0.0.1 at 2013-07-23 21:50:34 -0700
+Served asset /nerds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 21:50:34 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.css?body=1" for 127.0.0.1 at 2013-07-23 21:50:34 -0700
+Served asset /nerds.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/nerds/new" for 127.0.0.1 at 2013-07-23 22:03:46 -0700
+Processing by NerdsController#new as HTML
+  Rendered nerds/_form.html.erb (3.0ms)
+  Rendered nerds/new.html.erb within layouts/application (4.2ms)
+Compiled answer.css  (1ms)  (pid 35792)
+Compiled application.css  (8ms)  (pid 35792)
+Compiled answer.js  (63ms)  (pid 35792)
+Compiled application.js  (74ms)  (pid 35792)
+Completed 200 OK in 207ms (Views: 198.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 22:03:46 -0700
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/answer.css?body=1" for 127.0.0.1 at 2013-07-23 22:03:46 -0700
+Served asset /answer.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 22:03:46 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 22:03:46 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 22:03:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.css?body=1" for 127.0.0.1 at 2013-07-23 22:03:46 -0700
+Served asset /nerds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/answer.js?body=1" for 127.0.0.1 at 2013-07-23 22:03:46 -0700
+Served asset /answer.js - 200 OK (1ms)
+
+
+Started GET "/assets/nerds.js?body=1" for 127.0.0.1 at 2013-07-23 22:03:46 -0700
+Served asset /nerds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 22:03:46 -0700
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/nerds/new" for 127.0.0.1 at 2013-07-23 22:03:49 -0700
+Processing by NerdsController#new as HTML
+  Rendered nerds/_form.html.erb (2.8ms)
+  Rendered nerds/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 22:03:49 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.css?body=1" for 127.0.0.1 at 2013-07-23 22:03:49 -0700
+Served asset /nerds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/answer.css?body=1" for 127.0.0.1 at 2013-07-23 22:03:49 -0700
+Served asset /answer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 22:03:49 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 22:03:49 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 22:03:49 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 22:03:49 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.js?body=1" for 127.0.0.1 at 2013-07-23 22:03:49 -0700
+Served asset /nerds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/answer.js?body=1" for 127.0.0.1 at 2013-07-23 22:03:49 -0700
+Served asset /answer.js - 304 Not Modified (0ms)
+
+
+Started GET "/nerds/new" for 127.0.0.1 at 2013-07-23 22:07:04 -0700
+
+SyntaxError (/Users/Colette/Dev_Stuff/askme/communicate/config/routes.rb:64: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.13) lib/active_support/dependencies.rb:245:in `load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:245:in `block in load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:245:in `load'
+  railties (3.2.13) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (3.2.13) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (3.2.13) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (3.2.13) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (3.2.13) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (3.2.13) lib/active_support/file_update_checker.rb:78:in `call'
+  activesupport (3.2.13) lib/active_support/file_update_checker.rb:78:in `execute'
+  activesupport (3.2.13) lib/active_support/file_update_checker.rb:86:in `execute_if_updated'
+  railties (3.2.13) lib/rails/application/routes_reloader.rb:7:in `execute_if_updated'
+  railties (3.2.13) lib/rails/application/finisher.rb:68:in `block (2 levels) in <module:Finisher>'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:451:in `_run__2762849169363454522__prepare__2239945970421211258__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Colette/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Colette/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Colette/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Colette/.rvm/gems/ruby-1.9.3-p448@rails3/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/Colette/.rvm/gems/ruby-1.9.3-p448@rails3/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/Colette/.rvm/gems/ruby-1.9.3-p448@rails3/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started GET "/nerds/new" for 127.0.0.1 at 2013-07-23 22:08:01 -0700
+Processing by NerdsController#new as HTML
+  Rendered nerds/_form.html.erb (2.8ms)
+  Rendered nerds/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 49ms (Views: 41.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:01 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/answer.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:01 -0700
+Served asset /answer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:01 -0700
+Served asset /nerds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:01 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:01 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:01 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/answer.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:01 -0700
+Served asset /answer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:01 -0700
+Served asset /nerds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:01 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/nerds" for 127.0.0.1 at 2013-07-23 22:08:21 -0700
+Processing by NerdsController#index as HTML
+  [1m[36mNerd Load (0.1ms)[0m  [1mSELECT "nerds".* FROM "nerds" [0m
+  Rendered nerds/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:21 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/answer.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:21 -0700
+Served asset /answer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:21 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:21 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:21 -0700
+Served asset /nerds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/answer.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:21 -0700
+Served asset /answer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:21 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:21 -0700
+Served asset /nerds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:21 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/nerds/new" for 127.0.0.1 at 2013-07-23 22:08:23 -0700
+Processing by NerdsController#new as HTML
+  Rendered nerds/_form.html.erb (1.3ms)
+  Rendered nerds/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:23 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/answer.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:23 -0700
+Served asset /answer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:23 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:23 -0700
+Served asset /nerds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-23 22:08:23 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/answer.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:23 -0700
+Served asset /answer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nerds.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:23 -0700
+Served asset /nerds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-23 22:08:23 -0700
+Served asset /application.js - 304 Not Modified (0ms)
