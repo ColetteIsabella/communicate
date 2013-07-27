@@ -1,9 +1,9 @@
 Askme::Application.routes.draw do
   root :to => "nerds#index"
-    resources :nerds do
-      resources :answers
-    end
 
+  resources :nerds do
+    resources :answers
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
