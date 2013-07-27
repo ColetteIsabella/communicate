@@ -14,7 +14,6 @@ class NerdsController < ApplicationController
   # GET /nerds/1.json
   def show
     @nerd = Nerd.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @nerd }
@@ -44,7 +43,7 @@ class NerdsController < ApplicationController
 
     respond_to do |format|
       if @nerd.save
-        format.html { redirect_to @nerd, notice: 'Nerd was successfully created.' }
+        format.html { redirect_to @nerd, notice: 'Successfully created.' }
         format.json { render json: @nerd, status: :created, location: @nerd }
       else
         format.html { render action: "new" }

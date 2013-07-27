@@ -2,10 +2,10 @@
 
 <table>
   <tr>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>Question</th>
+    <th>Question Seeker</th>
+    <th>Answer</th>
+    <th>Contributor</th>
     <th></th>
     <th></th>
     <th></th>
@@ -13,12 +13,16 @@
 
 <% @nerds.each do |nerd| %>
   <tr>
-    <td><%= nerd.nameA %></td>
     <td><%= nerd.question %></td>
-    <td><%= nerd.nameB %></td>
-    <td><%= nerd.answer %></td>
+    <td><%= nerd.nameA %></td>
+    <% if nerd.answer.nil? %>
+      <td><%= link_to "Submit Answer", answer_path %></td>
+    <% else %>
+      <td><%= nerd.answer %></td>
+      <td><%= nerd.nameB %></td>
+    <% end %>
     <td><%= link_to 'Show', nerd %></td>
-    <td><%= link_to 'Edit', edit_nerd_path(nerd) %></td>
+    <td><%= link_to 'Edit', edit_nerd_path %></td>
     <td><%= link_to 'Destroy', nerd, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
